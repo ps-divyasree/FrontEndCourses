@@ -1,0 +1,25 @@
+header{
+    background-color: lightgray;
+}
+/* pre{
+    font-family: Times New Roman;
+} */
+a:link{
+    color: black;
+}
+.myHeadingRight{
+    background-color: gainsboro;
+    color: black;
+    text-align: center;
+}
+.myHeadingLeft{
+    background-color: rgb(157, 154, 154);
+    color: black;
+    text-align: center;
+}
+h1{
+    margin-bottom: 0;
+}
+footer{
+    text-align: center;
+}
