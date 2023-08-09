@@ -1,25 +1,84 @@
-header{
+header {
     background-color: lightgray;
 }
+
 /* pre{
     font-family: Times New Roman;
 } */
-a:link{
+a:link {
     color: black;
 }
-.myHeadingRight{
+
+.myHeadingRight {
     background-color: gainsboro;
     color: black;
     text-align: center;
 }
-.myHeadingLeft{
+
+.myHeadingLeft {
     background-color: rgb(157, 154, 154);
     color: black;
     text-align: center;
 }
-h1{
+
+h1 {
     margin-bottom: 0;
 }
-footer{
+
+footer {
     text-align: center;
+}
+
+
+
+#bodyId {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: palegoldenrod;
+    padding: 50px;
+}
+
+.container {
+    padding: 50px;
+    background-color: plum;
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(255, 209, 255);
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: plum;
+    outline: none;
+}
+
+#divId {
+    padding: 10px 0;
+}
+
+#hrid {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
 }
